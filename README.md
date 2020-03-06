@@ -33,7 +33,7 @@ Requires Xcode 11 to initially generate app
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
 
 **License:** \
-"Make Icons Swiftly" is under the MIT license. See [LICENSE](/LICENSE.md) for more information.
+"Make Icons Swiftly" is under the MIT license. See [LICENSE](/Blob/Master/LICENSE) for more information.
 
 *Examples of optional source images randomly created with App*
 ![](GitHub-Images/EasterEgg.png)
