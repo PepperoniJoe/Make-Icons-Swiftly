@@ -1,0 +1,92 @@
+{
+  "images" : [
+    {
+      "size" : "24x24",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "38mm",
+      "filename" : "watch_24x24@2x.png"
+    },
+    {
+      "size" : "27.5x27.5",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "notificationCenter",
+      "subtype" : "42mm",
+      "filename" : "watch_27x27@2x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "role" : "companionSettings",
+      "scale" : "2x",
+      "filename" : "watch_29x29@2x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "watch",
+      "role" : "companionSettings",
+      "scale" : "3x",
+      "filename" : "watch_29x29@3x.png"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "38mm",
+      "filename" : "watch_40x40@2x.png"
+    },
+    {
+      "size" : "44x44",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "40mm",
+      "filename" : "watch_44x44@2x.png"
+    },
+    {
+      "size" : "50x50",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "appLauncher",
+      "subtype" : "44mm",
+      "filename" : "watch_50x50@2x.png"
+    },
+    {
+      "size" : "86x86",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "38mm",
+      "filename" : "watch_86x86@2x.png"
+    },
+    {
+      "size" : "98x98",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "42mm",
+      "filename" : "watch_98x98@2x.png"
+    },
+    {
+      "size" : "108x108",
+      "idiom" : "watch",
+      "scale" : "2x",
+      "role" : "quickLook",
+      "subtype" : "44mm",
+      "filename" : "watch_108x108@2x.png"
+    },
+    {
+      "idiom" : "watch-marketing",
+      "size" : "1024x1024",
+      "scale" : "1x",
+      "filename" : "watch_1024x1024.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "Make Icons Swiftly"
+  }
+}

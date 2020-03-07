@@ -1,0 +1,69 @@
+{
+  "images" : [
+    {
+      "idiom" : "ipad",
+      "size" : "20x20",
+      "scale" : "1x",
+      "filename" : "ipad_20x20.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "20x20",
+      "scale" : "2x",
+      "filename" : "ipad_20x20@2x.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "1x",
+      "filename" : "ipad_29x29.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "2x",
+      "filename" : "ipad_29x29@2x.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "40x40",
+      "scale" : "1x",
+      "filename" : "ipad_40x40.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "40x40",
+      "scale" : "2x",
+      "filename" : "ipad_40x40@2x.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "76x76",
+      "scale" : "1x",
+      "filename" : "ipad_76x76.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "76x76",
+      "scale" : "2x",
+     "filename" : "ipad_76x76@2x.png"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "83.5x83.5",
+      "scale" : "2x",
+      "filename" : "ipad_83x83@2x.png"
+    },
+    {
+      "idiom" : "ios-marketing",
+      "size" : "1024x1024",
+      "scale" : "1x",
+      "filename" : "ipad_1024x1024.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "Make Icons Swiftly"
+  }
+}
+

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="feg-4q-ZrW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Help-->
+        <scene sceneID="h1W-HC-pWe">
+            <objects>
+                <viewController title="Help" id="feg-4q-ZrW" customClass="HelpViewController" customModule="MakeIconsSwiftly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="oLg-LR-dBZ">
+                        <rect key="frame" x="0.0" y="0.0" width="880" height="711"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="xlh-EE-nDx">
+                                <rect key="frame" x="20" y="20" width="840" height="671"/>
+                                <clipView key="contentView" ambiguous="YES" id="oCX-iH-pNP">
+                                    <rect key="frame" x="1" y="1" width="838" height="669"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView distribution="fillProportionally" orientation="vertical" alignment="leading" spacing="15" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sRN-CG-gxO">
+                                            <rect key="frame" x="20" y="-1878" width="840" height="2527"/>
+                                            <subviews>
+                                                <stackView distribution="fill" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yXt-mB-LfS">
+                                                    <rect key="frame" x="0.0" y="2378" width="572" height="149"/>
+                                                    <subviews>
+                                                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="7lm-Fn-4wu">
+                                                            <rect key="frame" x="0.0" y="0.0" width="572" height="149"/>
+                                                            <subviews>
+                                                                <stackView distribution="fillProportionally" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tgx-V7-tGz">
+                                                                    <rect key="frame" x="20" y="20" width="532" height="109"/>
+                                                                    <subviews>
+                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gDE-gQ-lBP">
+                                                                            <rect key="frame" x="-2" y="29" width="421" height="80"/>
+                                                                            <textFieldCell key="cell" lineBreakMode="clipping" title="Make Icons Swiftly" id="5Sv-aF-o2g">
+                                                                                <font key="font" size="50" name="Noteworthy-Light"/>
+                                                                                <color key="textColor" red="0.80000000000000004" green="0.59999999999999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                            </textFieldCell>
+                                                                        </textField>
+                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X2h-xm-hYW">
+                                                                            <rect key="frame" x="415" y="29" width="119" height="80"/>
+                                                                            <textFieldCell key="cell" lineBreakMode="clipping" title=" Help" id="VeG-vl-9Mb">
+                                                                                <font key="font" size="50" name="Noteworthy-Light"/>
+                                                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                            </textFieldCell>
+                                                                        </textField>
+                                                                    </subviews>
+                                                                    <visibilityPriorities>
+                                                                        <integer value="1000"/>
+                                                                        <integer value="1000"/>
+                                                                    </visibilityPriorities>
+                                                                    <customSpacing>
+                                                                        <real value="3.4028234663852886e+38"/>
+                                                                        <real value="3.4028234663852886e+38"/>
+                                                                    </customSpacing>
+                                                                </stackView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="tgx-V7-tGz" secondAttribute="bottom" constant="20" symbolic="YES" id="cFR-E3-OBX"/>
+                                                                <constraint firstAttribute="trailing" secondItem="tgx-V7-tGz" secondAttribute="trailing" constant="20" symbolic="YES" id="qZs-Xp-kzC"/>
+                                                                <constraint firstItem="tgx-V7-tGz" firstAttribute="top" secondItem="7lm-Fn-4wu" secondAttribute="top" constant="20" symbolic="YES" id="wBb-3p-xzG"/>
+                                                                <constraint firstItem="tgx-V7-tGz" firstAttribute="leading" secondItem="7lm-Fn-4wu" secondAttribute="leading" constant="20" symbolic="YES" id="zV3-xu-CX2"/>
+                                                            </constraints>
+                                                        </customView>
+                                                    </subviews>
+                                                    <visibilityPriorities>
+                                                        <integer value="1000"/>
+                                                    </visibilityPriorities>
+                                                    <customSpacing>
+                                                        <real value="3.4028234663852886e+38"/>
+                                                    </customSpacing>
+                                                </stackView>
+                                                <box title="Description" translatesAutoresizingMaskIntoConstraints="NO" id="kax-v6-kxJ">
+                                                    <rect key="frame" x="-3" y="2273" width="846" height="90"/>
+                                                    <view key="contentView" id="6OI-Vq-8zn">
+                                                        <rect key="frame" x="3" y="3" width="840" height="72"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="C2G-pi-NCV">
+                                                                <rect key="frame" x="18" y="20" width="804" height="32"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="800" id="ytG-DD-wj5"/>
+                                                                </constraints>
+                                                                <textFieldCell key="cell" allowsUndo="NO" alignment="left" allowsEditingTextAttributes="YES" id="2Vg-gz-NTb">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <string key="title">This app takes a 1024x1024 image to generate the required Apple app icons of several sizes for the various device types. 
+</string>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="C2G-pi-NCV" secondAttribute="bottom" constant="20" symbolic="YES" id="RUj-uY-UVA"/>
+                                                            <constraint firstItem="C2G-pi-NCV" firstAttribute="leading" secondItem="6OI-Vq-8zn" secondAttribute="leading" constant="20" symbolic="YES" id="ZqL-hV-8ad"/>
+                                                            <constraint firstItem="C2G-pi-NCV" firstAttribute="top" secondItem="6OI-Vq-8zn" secondAttribute="top" constant="20" symbolic="YES" id="iAo-RI-7Zx"/>
+                                                            <constraint firstAttribute="trailing" secondItem="C2G-pi-NCV" secondAttribute="trailing" constant="20" symbolic="YES" id="lwq-wH-72K"/>
+                                                        </constraints>
+                                                    </view>
+                                                </box>
+                                                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cM5-vP-2PU">
+                                                    <rect key="frame" x="120" y="1862" width="600" height="400"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="600" id="0Kc-me-WoZ"/>
+                                                        <constraint firstAttribute="height" constant="400" id="Itc-ss-tkD"/>
+                                                    </constraints>
+                                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" image="ScreenShot" id="6lt-GK-kXu"/>
+                                                </imageView>
+                                                <box title="Instructions" translatesAutoresizingMaskIntoConstraints="NO" id="zfV-IN-MOQ">
+                                                    <rect key="frame" x="-3" y="1325" width="846" height="522"/>
+                                                    <view key="contentView" id="mNd-gE-zL8">
+                                                        <rect key="frame" x="3" y="3" width="840" height="504"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cHv-FV-qnJ">
+                                                                <rect key="frame" x="18" y="20" width="804" height="464"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="800" id="1ad-MQ-ImM"/>
+                                                                </constraints>
+                                                                <textFieldCell key="cell" allowsUndo="NO" allowsEditingTextAttributes="YES" id="iMn-tI-Apl">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <string key="title">1
+Select tab "icons" or "images." 
+Select "icons" tab to generate an Apple required icon set. Select "images" to create an images set.
+
+
+2
+Provide an image. 
+Drag and drop an image OR select an image from the file directory using the “Select Image” button.  For icons, images must be 1024x1024 pixels or larger. Images must be square. For image sets, provide an image that has 3 times the pixels for the desired points. In other words, provide a 150x150 pixel image for a 50x50 point image. 
+
+
+3
+Choose an option. 
+Check appropriate device type to use for generating the appropriate icon and image sizes.
+
+
+4
+Choose the file type.
+Select either an asset catalog, icon set or only individual images to be created. Icon sets and image sets are recommended over individual images as they can be added to an Xcode project with one drag. Individual images may need to be dragged into an existing icon or image set individually.  
+
+
+5
+Create Files.
+After selecting the desired directory, press “Save Here” button. Click the Create Files button again to see the created files, drag them into a project or delete old files.
+</string>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="cHv-FV-qnJ" firstAttribute="top" secondItem="mNd-gE-zL8" secondAttribute="top" constant="20" symbolic="YES" id="D1m-g1-n9X"/>
+                                                            <constraint firstAttribute="trailing" secondItem="cHv-FV-qnJ" secondAttribute="trailing" constant="20" symbolic="YES" id="eX3-xm-r5x"/>
+                                                            <constraint firstItem="cHv-FV-qnJ" firstAttribute="leading" secondItem="mNd-gE-zL8" secondAttribute="leading" constant="20" symbolic="YES" id="gpF-DV-Nb2"/>
+                                                            <constraint firstAttribute="bottom" secondItem="cHv-FV-qnJ" secondAttribute="bottom" constant="20" symbolic="YES" id="te0-xU-maw"/>
+                                                        </constraints>
+                                                    </view>
+                                                </box>
+                                                <box title="Features" translatesAutoresizingMaskIntoConstraints="NO" id="FcY-ax-1K7">
+                                                    <rect key="frame" x="-3" y="1143" width="846" height="171"/>
+                                                    <view key="contentView" id="YTP-6q-Ym4">
+                                                        <rect key="frame" x="3" y="3" width="840" height="153"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lwh-XH-dZJ">
+                                                                <rect key="frame" x="18" y="57" width="619" height="96"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="615" id="8qH-xy-5Kh"/>
+                                                                </constraints>
+                                                                <textFieldCell key="cell" alignment="left" id="UD6-9u-HfR">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <string key="title">Drag and Drop images, or select image using file directory.
+Preferred settings are saved automatically.
+Slider can be used to expand and shrink image for better viewing.
+Generated files can be placed in a new folder named after the image using "Place in Folder".
+
+</string>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <string key="userLabel">Drag and Drop images, or select image using file directory. Preferred settings are saved automatically. Slider can be used to expand and shrink image.</string>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="Lwh-XH-dZJ" secondAttribute="trailing" constant="205" id="De4-R7-91I"/>
+                                                            <constraint firstItem="Lwh-XH-dZJ" firstAttribute="top" secondItem="YTP-6q-Ym4" secondAttribute="top" id="cax-pD-Dj4"/>
+                                                            <constraint firstAttribute="bottom" secondItem="Lwh-XH-dZJ" secondAttribute="bottom" constant="57" id="tuz-IG-Q9X"/>
+                                                            <constraint firstItem="Lwh-XH-dZJ" firstAttribute="leading" secondItem="YTP-6q-Ym4" secondAttribute="leading" constant="20" symbolic="YES" id="zDA-hT-nFH"/>
+                                                        </constraints>
+                                                    </view>
+                                                </box>
+                                                <box title="Tips" translatesAutoresizingMaskIntoConstraints="NO" id="MMr-fo-9jy">
+                                                    <rect key="frame" x="-3" y="1062" width="846" height="70"/>
+                                                    <view key="contentView" id="ybi-0m-pPd">
+                                                        <rect key="frame" x="3" y="3" width="840" height="52"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QY0-8H-5bi">
+                                                                <rect key="frame" x="18" y="20" width="804" height="32"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="800" id="buy-d2-3Qp"/>
+                                                                </constraints>
+                                                                <textFieldCell key="cell" alignment="left" allowsEditingTextAttributes="YES" id="bXF-pn-0QS">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <string key="title">Select the “Create Files” a second time to view or use the recently saved files. 
+</string>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <string key="userLabel">Select any image to check its size. The size is displayed above the image.Select the “Create Files” a second time to view the created files, if desired.</string>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="QY0-8H-5bi" secondAttribute="bottom" constant="20" symbolic="YES" id="8Jp-jY-VV3"/>
+                                                            <constraint firstItem="QY0-8H-5bi" firstAttribute="top" secondItem="ybi-0m-pPd" secondAttribute="top" id="M4s-s0-58f"/>
+                                                            <constraint firstAttribute="trailing" secondItem="QY0-8H-5bi" secondAttribute="trailing" constant="20" symbolic="YES" id="dTe-Qe-PAp"/>
+                                                            <constraint firstItem="QY0-8H-5bi" firstAttribute="leading" secondItem="ybi-0m-pPd" secondAttribute="leading" constant="20" symbolic="YES" id="yhP-nC-EdW"/>
+                                                        </constraints>
+                                                    </view>
+                                                </box>
+                                                <box title="Easter Egg" translatesAutoresizingMaskIntoConstraints="NO" id="V6q-Je-qbJ" userLabel="Easter Egg">
+                                                    <rect key="frame" x="-3" y="397" width="846" height="654"/>
+                                                    <view key="contentView" id="Lwr-Ot-J2T">
+                                                        <rect key="frame" x="3" y="3" width="840" height="636"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1Ib-JK-mMn">
+                                                                <rect key="frame" x="18" y="572" width="804" height="64"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="800" id="4mw-zK-RbA"/>
+                                                                </constraints>
+                                                                <textFieldCell key="cell" alignment="left" allowsEditingTextAttributes="YES" id="SKY-Op-ei7">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <string key="title">Don't want to bother creating a 1024x1024 image? Generate a randomly-created image by clicking on the app's logo. Use the image to quickly create icons for small projects or as a temporary placeholder in other projects. 
+
+Fun fact, the logo and icons in this app were created by this app.</string>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <string key="userLabel">Select any image to check its size. The size is displayed above the image.Select the “Create Files” a second time to view the created files, if desired.</string>
+                                                            </textField>
+                                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yfo-xd-Qvq">
+                                                                <rect key="frame" x="-142" y="82" width="1124" height="472"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="pT7-MQ-VMX"/>
+                                                                </constraints>
+                                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="EasterEgg" id="8EH-2A-uR9"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="1Ib-JK-mMn" firstAttribute="top" secondItem="Lwr-Ot-J2T" secondAttribute="top" id="73g-Cl-hvM"/>
+                                                            <constraint firstItem="yfo-xd-Qvq" firstAttribute="top" secondItem="1Ib-JK-mMn" secondAttribute="bottom" constant="18" id="G5x-yP-bfc"/>
+                                                            <constraint firstItem="yfo-xd-Qvq" firstAttribute="centerX" secondItem="1Ib-JK-mMn" secondAttribute="centerX" id="JsV-zQ-h3L"/>
+                                                            <constraint firstItem="1Ib-JK-mMn" firstAttribute="leading" secondItem="Lwr-Ot-J2T" secondAttribute="leading" constant="20" symbolic="YES" id="dpq-MQ-HF0"/>
+                                                            <constraint firstAttribute="trailing" secondItem="1Ib-JK-mMn" secondAttribute="trailing" constant="20" symbolic="YES" id="huJ-qB-1oy"/>
+                                                            <constraint firstItem="yfo-xd-Qvq" firstAttribute="centerY" secondItem="Lwr-Ot-J2T" secondAttribute="centerY" id="jx3-mk-DKK"/>
+                                                        </constraints>
+                                                    </view>
+                                                </box>
+                                                <box title="Frequently Asked Questions" translatesAutoresizingMaskIntoConstraints="NO" id="9nO-Z8-eiB">
+                                                    <rect key="frame" x="-3" y="-4" width="846" height="390"/>
+                                                    <view key="contentView" id="xpC-B2-x3e">
+                                                        <rect key="frame" x="3" y="3" width="840" height="372"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uDi-4B-cCC">
+                                                                <rect key="frame" x="18" y="20" width="804" height="352"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="800" id="6FO-9d-pFm"/>
+                                                                </constraints>
+                                                                <textFieldCell key="cell" alignment="left" allowsEditingTextAttributes="YES" id="aHH-xb-j9r">
+                                                                    <font key="font" metaFont="system"/>
+                                                                    <mutableString key="title">How do I replace an existing image with a new one? 
+Just drag another image on top of the existing one OR select another image using the "Select Image" button.
+
+What do I do with the files I created? 
+If you created an assets catalog(Assets.xcassets), drag this file into your project's navigator pane after renaming or removing the existing Assets.xcassets. If you created an app iconset(AppIcon.appiconset), open an existing asset catalog in your project, remove  or rename any existing app iconset of the same name and drag the new app iconset into that catalog. If you generated images only, then you will need to drag each image individually into an iconset. For 1x2x3x images, the above applies as well.
+
+What size image should I use for creating 1x, 2x, 3x images?
+For an image that will be 100x100 points, use a 300x300 pixel image. For a image that will be 350X200 points, provide a 1050x600 pixel image, etc.
+
+What is the significance of the name on auto-generated images?
+The name is just "Image" with a time stamp to create a unique name each time. With provided images, the original name on the file is used.  
+
+How can I install this app on my own computer? 
+The easiest method I've found is to run the app in Xcode.  Using Spotlight Search find "MakeIconsSwiftly.app".  Drag this file into your Mac's application folder. Then use the app like any other application. 
+
+</mutableString>
+                                                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                </textFieldCell>
+                                                                <string key="userLabel">Select any image to check its size. The size is displayed above the image.Select the “Create Files” a second time to view the created files, if desired.</string>
+                                                            </textField>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="uDi-4B-cCC" secondAttribute="trailing" constant="20" symbolic="YES" id="9tE-dh-cQ7"/>
+                                                            <constraint firstAttribute="bottom" secondItem="uDi-4B-cCC" secondAttribute="bottom" constant="20" symbolic="YES" id="AKn-BB-7b8"/>
+                                                            <constraint firstItem="uDi-4B-cCC" firstAttribute="top" secondItem="xpC-B2-x3e" secondAttribute="top" id="C8V-CC-UdT"/>
+                                                            <constraint firstItem="uDi-4B-cCC" firstAttribute="leading" secondItem="xpC-B2-x3e" secondAttribute="leading" constant="20" symbolic="YES" id="hqu-tO-YjN"/>
+                                                        </constraints>
+                                                    </view>
+                                                </box>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cM5-vP-2PU" firstAttribute="centerX" secondItem="sRN-CG-gxO" secondAttribute="centerX" id="kap-Qb-rUC"/>
+                                            </constraints>
+                                            <visibilityPriorities>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                                <integer value="1000"/>
+                                            </visibilityPriorities>
+                                            <customSpacing>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                                <real value="3.4028234663852886e+38"/>
+                                            </customSpacing>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="sRN-CG-gxO" firstAttribute="leading" secondItem="oCX-iH-pNP" secondAttribute="leading" constant="20" symbolic="YES" id="QG1-4D-vKD"/>
+                                        <constraint firstAttribute="trailing" secondItem="sRN-CG-gxO" secondAttribute="trailing" constant="20" symbolic="YES" id="TuV-Kp-FCJ"/>
+                                        <constraint firstItem="sRN-CG-gxO" firstAttribute="top" secondItem="oCX-iH-pNP" secondAttribute="top" constant="20" symbolic="YES" id="YyR-ff-LnT"/>
+                                    </constraints>
+                                </clipView>
+                                <constraints>
+                                    <constraint firstItem="sRN-CG-gxO" firstAttribute="width" secondItem="xlh-EE-nDx" secondAttribute="width" id="P66-ei-nBi"/>
+                                </constraints>
+                                <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="NsL-82-y61">
+                                    <rect key="frame" x="-100" y="-100" width="840" height="16"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                                <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="0.99892357373519913" horizontal="NO" id="heW-u9-5yH">
+                                    <rect key="frame" x="823" y="1" width="16" height="669"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </scroller>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xlh-EE-nDx" secondAttribute="trailing" constant="20" symbolic="YES" id="5s6-Hg-gmN"/>
+                            <constraint firstItem="xlh-EE-nDx" firstAttribute="top" secondItem="oLg-LR-dBZ" secondAttribute="top" constant="20" symbolic="YES" id="X7p-c5-5OU"/>
+                            <constraint firstAttribute="bottom" secondItem="xlh-EE-nDx" secondAttribute="bottom" constant="20" symbolic="YES" id="aJX-A5-dGx"/>
+                            <constraint firstItem="xlh-EE-nDx" firstAttribute="leading" secondItem="oLg-LR-dBZ" secondAttribute="leading" constant="20" symbolic="YES" id="tZQ-Ta-CF5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="helpScrollView" destination="xlh-EE-nDx" id="a4Y-xz-9af"/>
+                    </connections>
+                </viewController>
+                <customObject id="spy-vJ-IkV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799" y="-688.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EasterEgg" width="1124" height="472"/>
+        <image name="ScreenShot" width="814" height="547"/>
+    </resources>
+</document>

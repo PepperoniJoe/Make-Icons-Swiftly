@@ -1,0 +1,21 @@
+{
+   "images":[
+      {
+         "idiom":"car",
+         "size":"60x60",
+         "scale":"2x",
+         "filename":"car_60x60@2x.png"
+      },
+      {
+         "idiom":"car",
+         "size":"60x60",
+         "scale":"3x",
+         "filename":"car_60x60@3x.png"
+      }
+   ],
+   "info":{
+      "version":1,
+      "author":"Make Icons Swiftly"
+   }
+}
+
