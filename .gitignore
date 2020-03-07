@@ -38,7 +38,6 @@ build/
 
 # Throw away ALL personal settings (including custom schemes!
 xcuserdata/
-project.xcworkspace/
 *.xcuserstate
 
 # Xcode - Deprecated classes
