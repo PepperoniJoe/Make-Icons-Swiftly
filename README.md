@@ -1,6 +1,6 @@
 ![](GitHub-Images/Logo.png) 
 
-An Apple Developer tool to generate app icons and images for iPhone, iPad, Mac, Apple TV, Watch and Car Play.
+An Apple Developer tool to generate app icons and images for iPhone, iPad, Mac, Apple TV, Apple Watch and Car Play.
 
 **Description:** \
 Provide a 1024x1024 pixel image to generate the required Apple app icon sets for the various device types. \
