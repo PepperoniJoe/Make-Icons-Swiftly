@@ -23,7 +23,7 @@ Provide a 3x pixel image to generate 1x, 2x, 3x image set i.e. provide a 300x300
 ![](GitHub-Images/MIS1.gif)
 
 **Technical Info:** \
-Mac application written in Swift 5 \
+Mac application written in Swift 5 (100% native code) \
 Requires Xcode 11 to initially generate app
 
 **Installations:**
