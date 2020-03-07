@@ -52,16 +52,6 @@
 		93F4739E23F11E5E00DD681E /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4739D23F11E5E00DD681E /* TabView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		93D435CA23E8D8AA0082E89F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 935AD9B023E10E0100C2D0AF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 935AD9B723E10E0100C2D0AF;
-			remoteInfo = IconsGenerator;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		93032B7C23E6B6E1001EEEFE /* Ext-NSDraggingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-NSDraggingInfo.swift"; sourceTree = "<group>"; };
 		93032B7E23E6B858001EEEFE /* DragAndDropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropView.swift; sourceTree = "<group>"; };
@@ -100,7 +90,6 @@
 		93BD0A1123E3B01C0075C39C /* Ext-NSOpenPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-NSOpenPanel.swift"; sourceTree = "<group>"; };
 		93BD0A1323E4113A0075C39C /* Ext-Textfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-Textfield.swift"; sourceTree = "<group>"; };
 		93D435A323E8BE9F0082E89F /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
-		93D435C523E8D8AA0082E89F /* MakeIconsSwiftlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeIconsSwiftlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D435CF23E951090082E89F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		93DFF3BD23E51D5F00C4A4FD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		93EBFE9823F676640001D0F5 /* Ext-ViewController-NSTabViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext-ViewController-NSTabViewDelegate.swift"; sourceTree = "<group>"; };
@@ -114,13 +103,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		935AD9B523E10E0100C2D0AF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93D435C223E8D8AA0082E89F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,7 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				935AD9B823E10E0100C2D0AF /* MakeIconsSwiftly.app */,
-				93D435C523E8D8AA0082E89F /* MakeIconsSwiftlyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,24 +264,6 @@
 			productReference = 935AD9B823E10E0100C2D0AF /* MakeIconsSwiftly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		93D435C423E8D8AA0082E89F /* MakeIconsSwiftlyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93D435CC23E8D8AA0082E89F /* Build configuration list for PBXNativeTarget "MakeIconsSwiftlyTests" */;
-			buildPhases = (
-				93D435C123E8D8AA0082E89F /* Sources */,
-				93D435C223E8D8AA0082E89F /* Frameworks */,
-				93D435C323E8D8AA0082E89F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93D435CB23E8D8AA0082E89F /* PBXTargetDependency */,
-			);
-			name = MakeIconsSwiftlyTests;
-			productName = IconsGeneratorTests;
-			productReference = 93D435C523E8D8AA0082E89F /* MakeIconsSwiftlyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -313,10 +276,6 @@
 				TargetAttributes = {
 					935AD9B723E10E0100C2D0AF = {
 						CreatedOnToolsVersion = 11.2.1;
-					};
-					93D435C423E8D8AA0082E89F = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 935AD9B723E10E0100C2D0AF;
 					};
 				};
 			};
@@ -334,7 +293,6 @@
 			projectRoot = "";
 			targets = (
 				935AD9B723E10E0100C2D0AF /* MakeIconsSwiftly */,
-				93D435C423E8D8AA0082E89F /* MakeIconsSwiftlyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,13 +318,6 @@
 				9370FC2B23EF6218001F5295 /* About.storyboard in Resources */,
 				9370FC2923EF61E7001F5295 /* Help.storyboard in Resources */,
 				93B4BE9C23E154F100FEB7A2 /* Contents_mac.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93D435C323E8D8AA0082E89F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,22 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93D435C123E8D8AA0082E89F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		93D435CB23E8D8AA0082E89F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 935AD9B723E10E0100C2D0AF /* MakeIconsSwiftly */;
-			targetProxy = 93D435CA23E8D8AA0082E89F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		935AD9C623E10E0700C2D0AF /* Debug */ = {
@@ -590,50 +526,6 @@
 			};
 			name = Release;
 		};
-		93D435CD23E8D8AA0082E89F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = T97DA5EFXT;
-				INFOPLIST_FILE = MakeIconsSwiftlyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MarcyVernon.MakeIconsSwiftlyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeIconsSwiftly.app/Contents/MacOS/MakeIconsSwiftly";
-			};
-			name = Debug;
-		};
-		93D435CE23E8D8AA0082E89F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = T97DA5EFXT;
-				INFOPLIST_FILE = MakeIconsSwiftlyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.MarcyVernon.MakeIconsSwiftlyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeIconsSwiftly.app/Contents/MacOS/MakeIconsSwiftly";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,15 +543,6 @@
 			buildConfigurations = (
 				935AD9C923E10E0700C2D0AF /* Debug */,
 				935AD9CA23E10E0700C2D0AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93D435CC23E8D8AA0082E89F /* Build configuration list for PBXNativeTarget "MakeIconsSwiftlyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93D435CD23E8D8AA0082E89F /* Debug */,
-				93D435CE23E8D8AA0082E89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
