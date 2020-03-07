@@ -26,6 +26,13 @@ Provide a 3x pixel image to generate 1x, 2x, 3x image set i.e. provide a 300x300
 Mac application written in Swift 5 \
 Requires Xcode 11 to initially generate app
 
+**Installations:**
+1. Open project in Xcode
+2. Go to project settings for the target and update the your signing information(signing and capabilities)
+3. Build and run the app in Xcode. 
+4. Use Spotlight Search to locate MakeIconsSwiftly.app in the derived data folder
+5. Drap MakeIconsSwiftly.app to the desktop or applications folder for use as desired. 
+
 *Example using an randomly-generated image to quickly create an icon set*
 ![](GitHub-Images/MIS2.gif)
 
