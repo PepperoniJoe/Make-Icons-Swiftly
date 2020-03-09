@@ -31,7 +31,7 @@ Requires Xcode 11 to initially generate app
 2. Go to project settings for the target and update the your signing information(signing and capabilities)
 3. Build and run the app in Xcode. 
 4. Use Spotlight Search to locate MakeIconsSwiftly.app in the derived data folder
-5. Drap MakeIconsSwiftly.app to the desktop or applications folder for use as desired. 
+5. Drag MakeIconsSwiftly.app to the desktop or applications folder for use as desired. 
 
 *Optional: Example using a randomly-generated image to quickly create an icon set*
 ![](GitHub-Images/MIS2.gif)
