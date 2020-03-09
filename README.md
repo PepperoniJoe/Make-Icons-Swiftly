@@ -1,6 +1,6 @@
 ![](GitHub-Images/Logo.png) 
 
-An Apple Developer tool to generate app icons and images for iPhone, iPad, Mac, Apple TV, Apple Watch and Car Play.
+An Apple developer tool to generate app icons and images for iPhone, iPad, Mac, Apple TV, Apple Watch and Car Play.
 
 **Description:** \
 Provide a 1024x1024 pixel image to generate the required Apple app icon sets for the various device types. \
@@ -11,11 +11,11 @@ Provide a 3x pixel image to generate 1x, 2x, 3x image set i.e. provide a 300x300
 **Features:** 
 - Generate asset catalogs, app icon sets, image sets and individual images
 - Drag and drop source image or select from file directory
-- Drag and drop resulting AppIcon.appiconset into Xcode project with one drag
+- Drag and drop resulting icon set or image set into Xcode project with one drag
 - Use png, jpg, tiff or gif for source image
 - Select desired source and destination directories
 - Settings are automatically saved including directories
-- Use slider to expand source image for better viewing
+- Use slider to view larger source image or to shrink window size
 - Organize files by automatically placing results in a folder named after the image
 - Use randomly-generated source image as a time saver, if desired (See examples below)
 
