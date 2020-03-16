@@ -1,4 +1,4 @@
-![](GitHub-Images/Logo.png =250x) 
+<img src="GitHub-Images/Logo.png" width="800">
 
 An Apple developer tool to generate app icons and images for iPhone, iPad, Mac, Apple TV, Apple Watch and Car Play.
 
@@ -6,7 +6,7 @@ An Apple developer tool to generate app icons and images for iPhone, iPad, Mac, 
 Provide a 1024x1024 pixel image to generate the required Apple app icon sets for the various device types. \
 Provide a 3x pixel image to generate 1x, 2x, 3x image set i.e. provide a 300x300 pixel image for a 100x100 point image set. 
 
-![](GitHub-Images/ScreenShot.png = 250x) 
+<img src="GitHub-Images/ScreenShot.png" width="800">
 
 **Features:** 
 - Generate asset catalogs, app icon sets, image sets and individual images
@@ -20,7 +20,7 @@ Provide a 3x pixel image to generate 1x, 2x, 3x image set i.e. provide a 300x300
 - Use randomly-generated source image as a time saver, if desired (See examples below)
 
 *Example using app to create image sets using a single image (shown in Dark mode)*
-![](GitHub-Images/MIS1.gif)
+<img src="GitHub-Images/MIS1.gif" width="800">
 
 **Technical Info:** \
 Mac application written in Swift 5 (100% native code) \
@@ -34,7 +34,7 @@ Requires Xcode 11 to initially generate app
 5. Drag MakeIconsSwiftly.app to the desktop or applications folder for use as desired. 
 
 *Optional: Example using a randomly-generated image to quickly create an icon set*
-![](GitHub-Images/MIS2.gif)
+<img src="GitHub-Images/MIS2.gif" width="800">
 
 **Author:** \
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
@@ -43,5 +43,5 @@ Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
 "Make Icons Swiftly" is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
 *Examples of optional source images randomly created with App*
-![](GitHub-Images/EasterEgg.png)
+<img src="GitHub-Images/EasterEgg.png" width="800">
 
