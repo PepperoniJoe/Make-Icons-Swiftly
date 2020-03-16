@@ -19,7 +19,7 @@ Provide a 3x pixel image to generate 1x, 2x, 3x image set i.e. provide a 300x300
 - Organize files by automatically placing results in a folder named after the image
 - Use randomly-generated source image as a time saver, if desired (See examples below)
 
-*Example using app to create images sets using a single image (shown in Dark mode)*
+*Example using app to create image sets using a single image (shown in Dark mode)*
 ![](GitHub-Images/MIS1.gif)
 
 **Technical Info:** \
